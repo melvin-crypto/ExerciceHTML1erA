@@ -1,0 +1,69 @@
+#divPrincipale
+{
+    margin: 0 auto;
+    width: 50%;
+    height: 100%;
+}
+#divInfos,#divCompetences,#divLoisirs
+{
+    height: 120px;
+    background-color: cornflowerblue;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#divNom,#divDate,#divLangages,#divNavigateurs,#divFoot,#divTennis,#divVolley
+{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+#divFoot
+{
+    display: flex;  
+    align-items: center;
+    height: 100%;
+    background-color: chartreuse;
+}
+#divTennis
+{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background-color:crimson;
+}
+#divVolley
+{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background-color:paleturquoise;
+}
+h1 
+{
+    text-align: center;
+    background-color: brown;
+    color: white;
+    font-size: 30px;
+    font-family: 'Monotype Corsiva';
+    border-color: yellow;
+    border-style: double;
+    border-width: 5px;
+}
+img
+{
+    width: 50px;
+    height: 50px;
+}
+p
+{
+    text-align: center;
+}
+label{
+    margin: auto;
+}
+#divFoot span,#divTennis span,#divVolley span{
+    margin: 0 auto;
+    font-size: 30px;
+}
